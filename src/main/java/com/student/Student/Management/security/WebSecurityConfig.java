@@ -35,8 +35,8 @@ public class WebSecurityConfig  {
     @Bean
     public UserDetailsService userDetailsService() {
         UserDetails user = User
-                .withUsername("navin")
-                .password("{noop}navin22")
+                .withUsername("Deepanshu")
+                .password("{noop}Deedee@1")
                 .roles("USER")
                 .build();
         return new InMemoryUserDetailsManager(user);
